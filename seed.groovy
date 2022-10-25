@@ -57,7 +57,7 @@ configFiles {
         }
     }
 }
-new File(workspaceDir, 'repos.csv').splitEachLine(',') { tokens ->
+new File(workspaceDir, 'repos-sample.csv').splitEachLine(',') { tokens ->
     if (tokens[0].startsWith('repoName')) {
         return
     }
