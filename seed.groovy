@@ -194,10 +194,10 @@ new File(workspaceDir, 'repos-sample.csv').splitEachLine(',') { tokens ->
                     deployerDetails {
                         artifactoryName 'moderne-artifactory'
                         deployReleaseRepository {
-                            keyFromText 'moderne-public-ast'
+                            keyFromText 'sjungling-local'
                         }
                         deploySnapshotRepository {
-                            keyFromText 'moderne-public-ast'
+                            keyFromText 'sjungling-local'
                         }
                     }
                 }

@@ -114,7 +114,7 @@ allprojects {
             publish {
                 contextUrl = "https://artifactory.moderne.ninja/artifactory"
                 repository {
-                    repoKey = 'moderne-public-ast'
+                    repoKey = 'sjungling-local'
                     username = System.getenv("ARTIFACTORY_USER")
                     password = System.getenv("ARTIFACTORY_PASSWORD")
                 }
